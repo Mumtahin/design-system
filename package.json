@@ -1,5 +1,11 @@
 {
   "name": "@mumtahin/design-system",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "git@github.com:mumtahin/design-system.git"
+  },
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,10 +13,6 @@
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mumtahin/design-system.git"
   },
   "author": "",
   "license": "ISC",
