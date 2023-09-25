@@ -51,8 +51,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "@mumtahin:registry": "https://npm.pkg.github.com"
-  }
+  "types": "dist/index.d.ts"
 }
