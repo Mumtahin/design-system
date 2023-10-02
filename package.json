@@ -1,20 +1,23 @@
 {
   "name": "@mumtahin/design-system",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/mumtahin"
   },
   "repository": {
     "url": "git@github.com:mumtahin/design-system.git"
   },
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "design system",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "author": "",
+  "author": {
+    "name": "mumtahin",
+    "email": "n.mumtahin1@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mumtahin/design-system/issues"
