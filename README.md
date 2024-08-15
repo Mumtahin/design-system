@@ -34,6 +34,17 @@ Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/Mumtahin/design-system.git
 cd design-system
+```
+
+Setup `.npmrc` file for package access:
+
+```bash
+cp .npmrc.example .npmrc
+```
+
+Then add in the relevant tokens. Next install all the packages and dependencies:
+
+```bash
 npm install
 # or
 yarn install
